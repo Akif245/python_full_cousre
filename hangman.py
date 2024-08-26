@@ -12,9 +12,13 @@ for letter in chosen_word:
     else:
         print("Wrong")
 display=[]
-for letter in chosen_word:
-    display.append("_")
+word_length = len(chosen_word)
+for _ in range(word_length):
+    display += "_"
 print(display)
-if chosen_word==guess:
-    display.append(guess)
-    print(display)
+guess=input("Guess a letter\n").lower()
+for position in range(word_length):
+    letter = chosen_word[position]
+if letter==guess:
+    display[position]=letter
+print(display)
