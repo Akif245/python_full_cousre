@@ -6,7 +6,7 @@ direction=input("Type '1' to to encrypt ,Type '2' to decrypt\n")
 text=input("Type your message \n").lower()
 
 shift=int(input("Type the number to shift \n"))
-if direction=="1".lower():
+if direction=="1":
     def encrypt(usertext,Shiftnum):
         cipher_letter=""
         for letter in usertext:
@@ -18,7 +18,7 @@ if direction=="1".lower():
 
     encrypt(text,shift)
 
-elif direction=="2".lower():
+elif direction=="2":
     def decrypt(usertext1,Shiftnum1):
         cipher_letter1=""
         for letter in usertext1:

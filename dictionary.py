@@ -1,0 +1,11 @@
+student_score={
+    "mohammed":10,
+    "abdul":20,
+    "akif":30,
+    "ahmed":40,
+}
+travel={
+    "france":{"city_names":["paris","abcd",'aaa']},   
+    "germany":"bbbb"
+}
+print(travel)
