@@ -24,13 +24,13 @@ def compare(user_score, comp_score):
   if user_score == comp_score:
     return "Draw "
   elif comp_score == 0:
-    return "Lose, opponent has Blackjack "
+    return "Lose, opponent has Blackjack\n"
   elif user_score == 0:
-    return "Win with a Blackjack "
+    return "Win with a Blackjack \n"
   elif user_score > 21:
-    return "You went over. You lose "
+    return "You went over. You lose \n"
   elif comp_score > 21:
-    return "Opponent went over. You win"
+    return "Opponent went over. You win\n"
   elif user_score > comp_score:
     return "You win "
   else:
