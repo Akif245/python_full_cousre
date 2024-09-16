@@ -34,22 +34,3 @@ def game():
         turns=check_ans(guess,answer,turns)
 game()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
